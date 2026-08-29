@@ -1,0 +1,114 @@
+{
+  "title": "Simulator Training: Approaching Thunderstorm",
+  "scenario_id": "training_outdoor_festival_storm",
+  "scenario_version": "1.0",
+  "simulator_mode": "training",
+  "context_title": "Simulator Practice",
+  "time_label": "Practice step",
+  "skip_consent": true,
+  "skip_contact": true,
+  "irb_consent": {
+    "title": "Training Information",
+    "text": [
+      "This is a brief practice activity for learning how to use the simulator."
+    ]
+  },
+  "contact_screen": {
+    "title": "Contact Information",
+    "text": [
+      "No contact information is collected during training."
+    ]
+  },
+  "scenario_description": {
+    "title": "How to Use the Simulator",
+    "text": [
+      "Imagine that you are attending an outdoor community festival. A severe thunderstorm may be approaching. ",
+      "At each step, open the any of the four information tiles and review the available updates. You may reopen a tile if you want to review it again. You do not have t o open tiles that are not imoprtant for you in your decision making. ",
+      "After reviewing the information, select Go to Assessment. Use the two sliders to record your current level of concern and how likely you are to leave the festival.",
+      "Then choose STOP if you would leave the festival now, or NEXT STEP if you would continue monitoring the situation. This training ends after Step 2."
+    ],
+    "image_house": "",
+    "image_map": ""
+  },
+  "start_button_label": "START TRAINING",
+  "start_time_display": "14:00",
+  "time_step_minutes": 30,
+  "time_steps": [
+    1,
+    2
+  ],
+  "preparation_actions": [],
+  "assessment_instructions": "Use both sliders to show your judgment based on the information available in this practice step. Each slider ranges from 0 to 10 and begins at 5.",
+  "assessment_button_label": "CONTINUE TO CHOICE",
+  "assessment_variables": [
+    {
+      "id": "current_concern",
+      "prompt": "How concerned are you about your safety right now?",
+      "low_anchor": "not at all concerned",
+      "high_anchor": "extremely concerned"
+    },
+    {
+      "id": "likelihood_leave",
+      "prompt": "How likely are you to leave the festival now?",
+      "low_anchor": "definitely would stay",
+      "high_anchor": "definitely would leave"
+    }
+  ],
+  "decision_title": "Choose what you would do",
+  "decision_instructions": "Select STOP if you would leave the festival now. Select NEXT STEP if you would continue monitoring the situation. The practice ends after Step 2 regardless of your choice.",
+  "stop_button_label": "STOP",
+  "next_button_label": "NEXT STEP",
+  "completion_title": "Training Complete",
+  "completion_message": "You have completed the practice activity. In the main scenario, review the information tiles, update the sliders, and choose whether to stop or continue when prompted.",
+  "decision_time": {
+    "nominal_minutes": 30,
+    "maximum_minutes": 30
+  },
+  "tiles": {
+    "1": {
+      "label": "Weather Conditions",
+      "content": {
+        "1": {
+          "text": "Dark clouds are visible west of the festival. Rain may begin within the next hour."
+        },
+        "2": {
+          "text": "The sky has become very dark. Strong wind and heavy rain are expected within approximately 20 minutes."
+        }
+      }
+    },
+    "2": {
+      "label": "Official Information",
+      "content": {
+        "1": {
+          "text": "The National Weather Service has issued a severe thunderstorm watch for the area."
+        },
+        "2": {
+          "text": "A severe thunderstorm warning has been issued. People outdoors are advised to seek shelter immediately."
+        }
+      }
+    },
+    "3": {
+      "label": "Festival Conditions",
+      "content": {
+        "1": {
+          "text": "The festival is continuing normally. Some visitors have begun checking weather updates."
+        },
+        "2": {
+          "text": "Festival staff have stopped activities and are directing visitors toward exits and nearby buildings."
+        }
+      }
+    },
+    "4": {
+      "label": "Travel Conditions",
+      "content": {
+        "1": {
+          "text": "Your vehicle is parked about a 10-minute walk away. Roads are open and traffic is normal."
+        },
+        "2": {
+          "text": "Many visitors are leaving at the same time. Pedestrian and vehicle congestion is beginning to increase."
+        }
+      }
+    }
+  },
+  "social_response_policies": {}
+}
