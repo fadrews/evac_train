@@ -58,7 +58,7 @@
   "decision_title": "Choose what you would do",
   "decision_instructions": "Select LEAVE if you would leave the festival now. Select NEXT STEP if you would continue monitoring the situation. After selecting NEXT STEP the scenario advances by 30 minutes and new information may become available.",
   "stop_button_label": "LEAVE",
-  "next_button_label": "STAY,
+  "next_button_label": "STAY",
   "completion_title": "Training Complete",
   "completion_message": "You have completed the practice activity. In the main scenario, review the information tiles, update how you feel, and choose whether to leave or stay when prompted.",
   "decision_time": {
