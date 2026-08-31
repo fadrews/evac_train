@@ -25,7 +25,7 @@
       "Imagine that you are attending an outdoor community festival. A severe thunderstorm may be approaching. ",
       "At each step, open the any of the information tiles and review the available updates. Once done with the review close the information by clicking CLOSE. You may reopen a tile if you want to review it again. You do not have to open tiles that are not imoprtant for you in your decision making. ",
       "However, you will have to open at least one tile. After reviewing the information, select GO TO ASSESSMENT. Now you can record your current level of concern and how likely you are to leave the festival.",
-      "Then choose STOP if you would leave the festival now, or NEXT STEP if you secide to stay and continue to monitor the situation. After clicking NEXT STEP the scenario advances by 30 minutes as shown by the change in time ",
+      "Then choose LEAVE if you would leave the festival now, or STAY if you secide to stay and continue to monitor the situation. After clicking STAY the scenario advances by 30 minutes as shown by the change in time ",
       "in the upper right corner. This training ends after Step 2."
     ],
     "image_house": "",
@@ -56,11 +56,11 @@
     }
   ],
   "decision_title": "Choose what you would do",
-  "decision_instructions": "Select STOP if you would leave the festival now. Select NEXT STEP if you would continue monitoring the situation. After selecting NEXT STEP the scenario advances by 30 minutes and new information may become available.",
-  "stop_button_label": "STOP",
-  "next_button_label": "NEXT STEP",
+  "decision_instructions": "Select LEAVE if you would leave the festival now. Select NEXT STEP if you would continue monitoring the situation. After selecting NEXT STEP the scenario advances by 30 minutes and new information may become available.",
+  "stop_button_label": "LEAVE",
+  "next_button_label": "STAY,
   "completion_title": "Training Complete",
-  "completion_message": "You have completed the practice activity. In the main scenario, review the information tiles, update how you feel, and choose whether to stop or continue when prompted.",
+  "completion_message": "You have completed the practice activity. In the main scenario, review the information tiles, update how you feel, and choose whether to leave or stay when prompted.",
   "decision_time": {
     "nominal_minutes": 30,
     "maximum_minutes": 30
