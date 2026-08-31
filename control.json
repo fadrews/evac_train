@@ -39,7 +39,7 @@
     2
   ],
   "preparation_actions": [],
-  "assessment_instructions": "Use both sliders to show your judgment based on the information available in this practice step. Each slider ranges from 0 to 10 and begins at 5.",
+  "assessment_instructions": "Use both scales to show your judgment based on the information available in this step. Each scale ranges from 0 to 10. Select the button that best represents your current opinion.",
   "assessment_button_label": "CONTINUE TO CHOICE",
   "assessment_variables": [
     {
@@ -56,7 +56,8 @@
     }
   ],
   "decision_title": "Choose what you would do",
-  "decision_instructions": "Select STOP if you would leave the festival now. Select NEXT STEP if you would continue monitoring the situation. The practice ends after Step 2 regardless of your choice.",
+  "decision_instructions": "Select STOP if you would leave the festival now. Select NEXT STEP if you would continue monitoring the situation. The practice ends after Step 2 regardless of your choice. After selecting",
+  "NEXT STEP the scenario advances by 30 minutes and new information may become available.",
   "stop_button_label": "STOP",
   "next_button_label": "NEXT STEP",
   "completion_title": "Training Complete",
