@@ -56,8 +56,7 @@
     }
   ],
   "decision_title": "Choose what you would do",
-  "decision_instructions": "Select STOP if you would leave the festival now. Select NEXT STEP if you would continue monitoring the situation. The practice ends after Step 2 regardless of your choice. After selecting ",
-  "NEXT STEP the scenario advances by 30 minutes and new information may become available.",
+  "decision_instructions": "Select STOP if you would leave the festival now. Select NEXT STEP if you would continue monitoring the situation. After selecting NEXT STEP the scenario advances by 30 minutes and new information may become available.",
   "stop_button_label": "STOP",
   "next_button_label": "NEXT STEP",
   "completion_title": "Training Complete",
