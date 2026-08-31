@@ -23,9 +23,9 @@
     "title": "How to Use the Simulator",
     "text": [
       "Imagine that you are attending an outdoor community festival. A severe thunderstorm may be approaching. ",
-      "At each step, open the any of the four information tiles and review the available updates. You may reopen a tile if you want to review it again. You do not have to open tiles that are not imoprtant for you in your decision making. ",
-      "However, you will have to open at least one tile. After reviewing the information, select Go to Assessment. Now you can record your current level of concern and how likely you are to leave the festival.",
-      "Then choose STOP if you would leave the festival now, or NEXT STEP if you would continue monitoring the situation as it evolves. After cliching NEXT STEP the scenario advances by 30 minutes as shown by the change in time ",
+      "At each step, open the any of the information tiles and review the available updates. Once done with the review close the information by clicking CLOSE. You may reopen a tile if you want to review it again. You do not have to open tiles that are not imoprtant for you in your decision making. ",
+      "However, you will have to open at least one tile. After reviewing the information, select GO TO ASSESSMENT. Now you can record your current level of concern and how likely you are to leave the festival.",
+      "Then choose STOP if you would leave the festival now, or NEXT STEP if you secide to stay and continue to monitor the situation. After clicking NEXT STEP the scenario advances by 30 minutes as shown by the change in time ",
       "in the upper right corner. This training ends after Step 2."
     ],
     "image_house": "",
@@ -60,7 +60,7 @@
   "stop_button_label": "STOP",
   "next_button_label": "NEXT STEP",
   "completion_title": "Training Complete",
-  "completion_message": "You have completed the practice activity. In the main scenario, review the information tiles, update the sliders, and choose whether to stop or continue when prompted.",
+  "completion_message": "You have completed the practice activity. In the main scenario, review the information tiles, update how you feel, and choose whether to stop or continue when prompted.",
   "decision_time": {
     "nominal_minutes": 30,
     "maximum_minutes": 30
