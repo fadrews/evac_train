@@ -22,12 +22,14 @@
   "scenario_description": {
     "title": "How to Use the Simulator",
     "text": [
-      "This is a training to familiarize yourself with the Decision Making Simulator (DMS). The goal is to use this tool to study how people make decisions when facing unexpected and potentially threntening events. ",
-      "Imagine that you are attending an outdoor community festival. A severe thunderstorm is approaching. You are facing the decision of staying at the concert and possibly exposing yourself to the thunderstorm, or to leaving early, missing some of the music at the concert. ",
-      "During this scenario you are shown information tiles that cover information that may affect your decision to stay or to leave. After clicking on the tile, a window above the tiles will open and reveal this  information. After reviewing the information you have to close the window to proceed. Next you can either open another tile, or proceed to making your decision. Some of the information might be critical, other information might be irrelevant for your decision.",
-      "The scenarios will progress in timed steps by a certain amount of time (in this case 30 minutes) as indicated in the upper right corner by the advancing clock. By advancing to the next time step new information might become available to you to examine, and to base your decision on. It is important that you only open tiles that are important for your decision making. Ignore those tiles where you think that they will have no impact on your decision. ",
-      "After reviewing all of the tiles that are containing important information, you can advance by selecting the \"Go to Assessment\" button at the bottom of the window. Two scales will be presented to you. You can select your level of concern and the likelihood that you will leave by clicking on the radio button that best indicates your assessment. Once you finished selecting both, you can advance to the decision screen by pressing \"Continue to choice\". ",
-      "On this new screen you will see the options \"LEAVE\" and \"STAY\". If you select leave you will end this training scenario. If you select STAY, you will advance by one time step and new information may become available to you. "
+      "This training will help you learn how to use the Decision Making Simulator (DMS). Researchers use the DMS to study how people make choices during sudden events that may be dangerous.",
+      "Imagine that you are attending an outdoor community music festival. A severe thunderstorm is approaching. You must decide whether to stay and risk being caught in the storm or leave early and miss some of the music.",
+      "During the scenario, you will see several information tiles. Each tile may contain information that could affect your decision. Click a tile to open it. The information will appear above the tiles. After reviewing it, close the window. You can then open another tile or go to the assessment.",
+      "Some information may be very important. Other information may not be useful for your decision. Open only the tiles that you think could affect your choice.",
+      "The scenario moves forward in timed steps. In this training, each step represents 30 minutes. The clock in the upper-right corner shows the current time. New information may become available after each time step.",
+      "When you have reviewed the important information, click Go to Assessment at the bottom of the screen. You will see two scales. Use the first scale to show how concerned you are. Use the second scale to show how likely you are to leave. Click one response on each scale.",
+      "After answering both questions, click Continue to Choice.",
+      "On the next screen, choose LEAVE or STAY. If you choose LEAVE, the training will end. If you choose STAY, the scenario will move forward by 30 minutes, and new information may become available."
     ],
     "image_house": "",
     "image_map": ""
