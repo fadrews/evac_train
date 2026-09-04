@@ -1,5 +1,5 @@
 {
-  "title": "Simulator Training: Approaching Thunderstorm",
+  "title": "Simulator Training:  Thunderstorm at Outdoor Concert",
   "scenario_id": "training_outdoor_festival_storm",
   "scenario_version": "1.0",
   "simulator_mode": "training",
@@ -22,11 +22,12 @@
   "scenario_description": {
     "title": "How to Use the Simulator",
     "text": [
-      "Imagine that you are attending an outdoor community festival. A severe thunderstorm may be approaching. ",
-      "At each step, open the any of the information tiles and review the available updates. Once done with the review close the information by clicking CLOSE. You may reopen a tile if you want to review it again. You do not have to open tiles that are not imoprtant for you in your decision making. ",
-      "However, you will have to open at least one tile. After reviewing the information, select GO TO ASSESSMENT. Now you can record your current level of concern and how likely you are to leave the festival.",
-      "Then choose LEAVE if you would leave the festival now, or STAY if you secide to stay and continue to monitor the situation. After clicking STAY the scenario advances by 30 minutes as shown by the change in time ",
-      "in the upper right corner. This training ends after Step 2."
+      "This is a training to familiarize yourself with the Decision Making Simulator (DMS). The goal is to use this tool to study how people make decisions when facing unexpected and potentially threntening events. ",
+      "Imagine that you are attending an outdoor community festival. A severe thunderstorm is approaching. You are facing the decision of staying at the concert and possibly exposing yourself to the thunderstorm, or to leaving early, missing some of the music at the concert. ",
+      "During this scenario you are shown information tiles that cover information that may affect your decision to stay or to leave. After clicking on the tile, a window above the tiles will open and reveal this  information. After reviewing the information you have to close the window to proceed. Next you can either open another tile, or proceed to making your decision. Some of the information might be critical, other information might be irrelevant for your decision.",
+      "The scenarios will progress in timed steps by a certain amount of time (in this case 30 minutes) as indicated in the upper right corner by the advancing clock. By advancing to the next time step new information might become available to you to examine, and to base your decision on. It is important that you only open tiles that are important for your decision making. Ignore those tiles where you think that they will have no impact on your decision. ",
+      "After reviewing all of the tiles that are containing important information, you can advance by selecting the \"Go to Assessment\" button at the bottom of the window. Two scales will be presented to you. You can select your level of concern and the likelihood that you will leave by clicking on the radio button that best indicates your assessment. Once you finished selecting both, you can advance to the decision screen by pressing \"Continue to choice\". ",
+      "On this new screen you will see the options \"LEAVE\" and \"STAY\". If you select leave you will end this training scenario. If you select STAY, you will advance by one time step and new information may become available to you. "
     ],
     "image_house": "",
     "image_map": ""
@@ -39,7 +40,7 @@
     2
   ],
   "preparation_actions": [],
-  "assessment_instructions": "Use both scales to show your judgment based on the information available in this step. Each scale ranges from 0 to 10. Select the button that best represents your current opinion.",
+  "assessment_instructions": "Use both sliders to show your judgment based on the information available in this practice step. Each slider ranges from 0 to 10 and begins at 5.",
   "assessment_button_label": "CONTINUE TO CHOICE",
   "assessment_variables": [
     {
@@ -56,11 +57,11 @@
     }
   ],
   "decision_title": "Choose what you would do",
-  "decision_instructions": "Select LEAVE if you would leave the festival now. Select NEXT STEP if you would continue monitoring the situation. After selecting NEXT STEP the scenario advances by 30 minutes and new information may become available.",
-  "stop_button_label": "LEAVE",
-  "next_button_label": "STAY",
+  "decision_instructions": "Select STOP if you would leave the festival now. Select NEXT STEP if you would continue monitoring the situation. The practice ends after Step 2 regardless of your choice.",
+  "stop_button_label": "STOP",
+  "next_button_label": "NEXT STEP",
   "completion_title": "Training Complete",
-  "completion_message": "You have completed the practice activity. In the main scenario, review the information tiles, update how you feel, and choose whether to leave or stay when prompted.",
+  "completion_message": "You have completed the practice activity. In the main scenario, review the information tiles, update the sliders, and choose whether to stop or continue when prompted.",
   "decision_time": {
     "nominal_minutes": 30,
     "maximum_minutes": 30
